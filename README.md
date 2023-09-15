@@ -1,60 +1,44 @@
 # Minesweeper-Game
 
-# Project Name
+This is a Minesweeper puzzle game where you count the number of adjacent hashes around each dash.
 
-My Awesome Project
+## Overview
 
-## Description
-
-My Awesome Project is a web application that helps users manage their tasks efficiently. It allows users to create, edit, and delete tasks, set deadlines, and categorize tasks by priority.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-
-## Installation
-
-To install My Awesome Project locally, follow these steps:
-
-1. Clone the repository:
-git clone https://github.com/yourusername/my-awesome-project.git
-
-css
-Copy code
-
-2. Navigate to the project directory:
-cd my-awesome-project
-
-markdown
-Copy code
-
-3. Install dependencies:
-npm install
-
-markdown
-Copy code
-
-4. Start the application:
-npm start
-
-markdown
-Copy code
+This project aims to create a puzzle game on a grid where the player must count the number of adjacent hash symbols ('#') for each dash symbol ('-'). The grid is represented as a 2D list, and the game logic is implemented in Python.
 
 ## Usage
 
-After installing My Awesome Project, you can access it in your web browser. Here's how to use it:
+1. Clone the repository to your local machine:
+   git clone https://github.com/NombuleloMudzwiri/Minesweeper-Game
 
-1. Open your web browser and go to http://localhost:3000.
+2. Navigate to the project directory:
 
-2. Sign up for an account or log in if you already have one.
+- cd minesweeper-game
 
-3. Create, edit, or delete tasks as needed.
+3. Run the game:
 
-![Screenshot](/screenshots/screenshot.png)
+python minesweeper.py
 
-## Credits
+python
 
-- Created by John Doe
-- Designed by Jane Smith
+## How to Play
+
+- The grid consists of dashes ('-') and hashes ('#').
+- For each dash, count the number of adjacent hash symbols (horizontal, vertical, and diagonal).
+- The counted numbers will form a new grid representing the solution.
+- Enjoy the puzzle-solving experience!
+
+## Contributing
+
+If you'd like to contribute to this project or report any issues, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+## Acknowledgments
+
+- Thanks to Hyperion Mentor's for assistance and guidance during the development of this project.
+- Inspiration from Hyperion Mentor's and youtube chanall freecodecamp for understanding puzzle game mechanics.
+
+
+
+
+
